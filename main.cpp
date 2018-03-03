@@ -1,6 +1,6 @@
 #include<iostream>
 #include <string>
-#include <stdlib.h>
+#include <cstdlib>
 
 using namespace std;
 
@@ -77,8 +77,7 @@ int  main() {
     }
 
     if ( alarm == 1) {
-       // system("say -v Anna 'HALT! STOP! Alarm ausgeloest, Polizei ist auf dem Weg'");
-        // system("say -v Diego 'Tatüüüüüüütaaaaattaaa Tatüüüüüüütaaaaattaaa Tatüüüüüüütaaaaattaaa Tatüüüüüüütaaaaattaaa' -r 1");
+        std::system("say 'HALT! STOP! Alarm ausgeloest, Polizei ist auf dem Weg'");
         cout << "Alarm ausgeloest, Polizei ist auf dem Weg\a" << endl;
     }
 
