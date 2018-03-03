@@ -1,10 +1,11 @@
-#include <iostream>
+#include<iostream>
 #include <string>
+#include <stdlib.h>
 
 using namespace std;
 
 /* Global Variablen */
-bool tresor = 0;
+bool tresor = 1;
 int geld = 300000;
 int diamenten = 55;
 bool alarm = 0;
@@ -76,20 +77,8 @@ int  main() {
     }
 
     if ( alarm == 1) {
-        std::cout << "\007";
-        std::cout << "\007";
-        std::cout << "\007";
-        std::cout << "\007";
-        std::cout << "\007";
-        std::cout << "\007";
-        std::cout << "\007";
-        std::cout << "\007";
-        std::cout << "\007";
-        std::cout << "\007";
-        std::cout << "\007";
-        std::cout << "\007";
-        std::cout << "\007";
-        std::cout << "\007";
+       // system("say -v Anna 'HALT! STOP! Alarm ausgeloest, Polizei ist auf dem Weg'");
+        // system("say -v Diego 'Tatüüüüüüütaaaaattaaa Tatüüüüüüütaaaaattaaa Tatüüüüüüütaaaaattaaa Tatüüüüüüütaaaaattaaa' -r 1");
         cout << "Alarm ausgeloest, Polizei ist auf dem Weg\a" << endl;
     }
 
