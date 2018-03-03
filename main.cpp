@@ -76,6 +76,20 @@ int  main() {
     }
 
     if ( alarm == 1) {
+        std::cout << "\007";
+        std::cout << "\007";
+        std::cout << "\007";
+        std::cout << "\007";
+        std::cout << "\007";
+        std::cout << "\007";
+        std::cout << "\007";
+        std::cout << "\007";
+        std::cout << "\007";
+        std::cout << "\007";
+        std::cout << "\007";
+        std::cout << "\007";
+        std::cout << "\007";
+        std::cout << "\007";
         cout << "Alarm ausgeloest, Polizei ist auf dem Weg\a" << endl;
     }
 
